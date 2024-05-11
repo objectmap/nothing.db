@@ -39,37 +39,37 @@ db.on(db.evenst.Set, (data) => {
 ```
 
 # Usage
-## .add(Name, Data)
+### .add(Name, Data)
 ```js
 // Adds a number to the data.
 <Database>.add("money", 1488)
 // ooutput: { ID: "money", data: 1488 }
 ```
-## .all()
+### .all()
 ```js
 // Return all data.
 <Database>.all()
 // output: [{ ID: "mooney", data: 1488 },{ ID: "objectmap", data: "hot developer" },{ ID: "somename", data: "somedata" }]
 ```
-## .delete(Name)
+### .delete(Name)
 ```js
 // Delete data.
 <Database>.delete("objectmap")
 // output: true
 ```
-## .get(Name)
+### .get(Name)
 ```js
 // Get data with data name.
 <Database>.get("objectmap")
 // output: hot developer
 ```
-## ..length()
+### ..length()
 ```js
 // Return size database
 <Database>.length()
 // output: 2
 ```
-## .push(Name, Data)
+### .push(Name, Data)
 ```js
 // Push data into Array[].
 <Database>.push("users", "Steve")
@@ -77,13 +77,13 @@ db.on(db.evenst.Set, (data) => {
 <Database>.push("users", "Alex")
 // output: [{ ID: "users", data: ["Steve", "Alex"] }]
 ```
-## .resetDatabase()
+### .resetDatabase()
 ```js
 // Reset all database.js
 <Database>.resetDatabase()
 // output: true
 ```
-## .startsWith(Name)
+### .startsWith(Name)
 ```js
 // Returns all data starting with "Specified Name" in database
 <Database>.startsWith("user.")
@@ -93,13 +93,13 @@ db.on(db.evenst.Set, (data) => {
 // { ID: "user.Alex", data: 1 },
 // ]
 ```
-## .set(Name, Data)
+### .set(Name, Data)
 ```js
 // Set data.
 <Database>.set("objectmap", "hot")
 // output: { ID: "objectmap", data: "hot developer" }
 ```
-## .subtract(Name, Data)
+### .subtract(Name, Data)
 ```js
 // Adds a number to the data.
 <Database>.subtract("money", 100)
