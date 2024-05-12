@@ -43,7 +43,7 @@ db.on(db.evenst.Set, (data) => {
 ```js
 // Adds a number to the data.
 <Database>.add("money", 1488)
-// ooutput: { ID: "money", data: 1488 }
+// output: { ID: "money", data: 1488 }
 ```
 ### .all()
 ```js
@@ -115,7 +115,7 @@ db.on(db.evenst.Set, (data) => {
 - Set
 - Subtract
 
-# Suppoted languages
+# Supported languages
 | Language | Code |
 | ------------- | ------------- |
 | English (default) | en  |
